@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', ()=>{//назначение глобального обработчика событий
 
-    const deadline = '2022-12-11';
+    const deadline = '2023-06-11';
     function getTimeRemaining(endtime) {
         //   let days, hours, minutes, seconds;
         const t = Date.parse(endtime) - Date.parse(new Date()),
